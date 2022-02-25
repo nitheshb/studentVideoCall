@@ -17,7 +17,7 @@ function MainWindow({ startCall, clientId }) {
     <div className="container main-window">
       <div>
         <h3>
-          Hi, your ID is
+          Hi, your student ID is
           <input
             type="text"
             className="txt-clientId"
@@ -25,14 +25,14 @@ function MainWindow({ startCall, clientId }) {
             readOnly
           />
         </h3>
-        <h4>Get started by calling a friend below</h4>
+        <h4>Provide Teacher ID below (this will be provided based on available teacher from database) </h4>
       </div>
       <div>
         <input
           type="text"
           className="txt-clientId"
           spellCheck={false}
-          placeholder="Your friend ID"
+          placeholder="Your Teacher ID"
           onChange={(event) => setFriendID(event.target.value)}
         />
         <div>
@@ -41,11 +41,11 @@ function MainWindow({ startCall, clientId }) {
             className="btn-action fa fa-video-camera"
             onClick={callWithVideo(true)}
           />
-          <button
+          {/* <button
             type="button"
             className="btn-action fa fa-phone"
             onClick={callWithVideo(false)}
-          />
+          /> */}
         </div>
       </div>
     </div>
