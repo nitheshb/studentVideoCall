@@ -1,5 +1,5 @@
 {
-  "name": "react-videocall",
+  "name": "react-videocall-students",
   "version": "1.2.0",
   "description": "React VideoCall App",
   "scripts": {
@@ -52,10 +52,6 @@
     "node": "14.17.0",
     "yarn": "1.22.10"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nguymin4/react-videocall.git"
-  },
-  "author": "Minh Son Nguyen",
+  "author": "Nithesh Reddy Batapati",
   "license": "MIT"
 }
